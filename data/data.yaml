@@ -1,0 +1,13 @@
+train: ../train_reduced/images
+val: ../valid_reduced/images
+test: ../test_reduced/images
+
+nc: 1
+names: ['elephant']  # Replace '0' with the actual class name for clarity
+
+roboflow:
+  workspace: school-ihmbv
+  project: elephant-intrusion-detection-system-xjwvm
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/school-ihmbv/elephant-intrusion-detection-system-xjwvm/dataset/1
